@@ -1,0 +1,58 @@
+section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: auto;
+  background-color: white;
+}
+.title {
+  font-size: 36px;
+  color: #212121;
+  margin: auto;
+  padding-top: 100px;
+  text-transform: uppercase;
+}
+.awesome-line {
+  padding-top: 25px;
+}
+.description {
+  color: #868686;
+  padding-top: 30px;
+}
+
+.container-row {
+  padding-top: 67px;
+  display: flex;
+}
+
+.awesome-image {
+  border: 1px solid #d98;
+  border-radius: 35px;
+}
+#lamp {
+  padding: 20px 24px;
+}
+#keyboard {
+  padding: 22px 17px;
+}
+#lightning {
+  padding: 19px 24px;
+}
+.title-row {
+  color: #333;
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 30px;
+}
+.text-row {
+  color: #000;
+  font-size: 14px;
+  padding-top: 16px;
+  padding-left: 32px;
+  text-align: center;
+  width: 350px;
+}
