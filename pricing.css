@@ -1,0 +1,70 @@
+.section-pricing {
+  padding: 100px 0px;
+  text-align: center;
+  background-color: #e5e5e5;
+}
+.container-block {
+  max-width: 1170px;
+  padding: 0px 15px;
+  margin: auto;
+  background-color: #e5e5e5;
+}
+.block {
+  display: flex;
+  margin-top: 63px;
+  margin-bottom: 80px;
+  justify-content: space-around;
+}
+.block-basic {
+  max-width: 340px;
+  width: 100%;
+}
+.block-optima {
+  max-width: 340px;
+  width: 100%;
+}
+.block-pro {
+  max-width: 340px;
+  width: 100%;
+}
+.block-list {
+  text-align: center;
+}
+.block-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 1px;
+  padding: 15px 144px 8px 144px;
+  background-color: #333333;
+  color: #ffffff;
+}
+.block-cost {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 2px;
+  padding: 26px 135px 33px 144px;
+  background-color: #333333;
+  color: #ffffff;
+}
+.block-text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 4px;
+  padding: 17px 127px 14px 135px;
+  background-color: #333333;
+  color: rgba(255, 255, 255, 0.5);
+}
+.block-space {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  margin-bottom: 4px;
+  padding: 10px 123px 11px 131px;
+  background-color: #ffffff;
+  color: #86878b;
+}

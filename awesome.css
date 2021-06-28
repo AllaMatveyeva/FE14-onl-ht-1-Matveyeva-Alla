@@ -1,58 +1,68 @@
 section {
-  padding: 50px 0;
+  padding: 100px 0px;
   text-align: center;
 }
 
 .container {
   max-width: 1170px;
-  padding: 0 15px;
+  padding: 0px 15px;
   margin: auto;
   background-color: white;
 }
 .title {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
   font-size: 36px;
   color: #212121;
   margin: auto;
-  padding-top: 100px;
   text-transform: uppercase;
 }
 .awesome-line {
-  padding-top: 25px;
+  margin: auto;
+  width: 62px;
+  border-top: 1px solid #d98943;
+  margin-top: 30px;
 }
 .description {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
   color: #868686;
-  padding-top: 30px;
+  margin-top: 30px;
 }
 
 .container-row {
-  padding-top: 67px;
+  margin-top: 67px;
   display: flex;
+  justify-content: space-between;
+}
+.image-row {
+  width: 350px;
+  text-align: center;
+}
+.image-row_circle {
+  margin: auto;
+  border: 1px solid #d98;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.awesome-image {
-  border: 1px solid #d98;
-  border-radius: 35px;
-}
-#lamp {
-  padding: 20px 24px;
-}
-#keyboard {
-  padding: 22px 17px;
-}
-#lightning {
-  padding: 19px 24px;
-}
 .title-row {
+  text-align: center;
   color: #333;
   font-weight: bold;
   font-size: 20px;
-  padding-top: 30px;
+  margin-top: 30px;
 }
 .text-row {
+  margin-top: 16px;
   color: #000;
   font-size: 14px;
-  padding-top: 16px;
-  padding-left: 32px;
-  text-align: center;
-  width: 350px;
+  line-height: 19px;
 }
