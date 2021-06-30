@@ -1,13 +1,13 @@
 section {
   padding: 100px 0px;
   text-align: center;
+  background-color: white;
 }
 
 .container {
   max-width: 1170px;
   padding: 0px 15px;
   margin: auto;
-  background-color: white;
 }
 .title {
   font-family: Raleway;
@@ -34,12 +34,14 @@ section {
 
 .container-row {
   margin-top: 67px;
+  margin-left: -15px;
   display: flex;
   justify-content: space-between;
 }
 .image-row {
   width: 350px;
   text-align: center;
+  margin-left: 15px;
 }
 .image-row_circle {
   margin: auto;
