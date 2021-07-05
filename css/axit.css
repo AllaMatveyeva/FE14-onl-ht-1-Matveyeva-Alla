@@ -1,0 +1,144 @@
+.axit {
+  padding: 109px 0px;
+  background-image: url(../img/background-1\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.axit::after {
+  content: "";
+  background: rgba(0, 0, 0, 0.45);
+  background-size: cover;
+  padding: 95px 0px;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.axit-container {
+  max-width: 1400px;
+  padding: 110px;
+  position: relative;
+  z-index: 1;
+}
+
+.axit-block {
+  display: flex;
+  justify-content: space-around;
+}
+.axit-block-left {
+  text-align: left;
+}
+.logoword {
+  padding: 0px;
+  font: normal normal 60px Roboto;
+  color: #ffffff;
+  text-transform: uppercase;
+  display: inline;
+}
+.logoword-end {
+  padding: 0px;
+  font: normal normal 60px Roboto;
+  text-transform: uppercase;
+  color: #f86e1d;
+  display: inline;
+}
+
+.axit-text {
+  width: 544px;
+  margin-top: 32px;
+}
+.axit-text-p {
+  padding-left: 0px;
+  font: normal normal 36px Raleway;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.axit-text-p::after {
+  content: "";
+  width: 62px;
+  border: 1px solid #ffffff;
+  display: block;
+  margin-top: 32px;
+}
+.axit-desc {
+  width: 282px;
+  text-align: left;
+  text-align: left;
+  margin-top: 39px;
+  /* margin-left: 110px;*/
+}
+.axit-desc-p {
+  padding-left: 0px;
+  font: normal 300 16px Raleway;
+  color: rgba(255, 255, 255, 0.8);
+}
+.axit-button {
+  /* margin-left: 110px;*/
+  width: 135px;
+  border: 1px solid #ffffff;
+  padding: 11px 26px;
+  margin-top: 39px;
+}
+
+.axit-button-download {
+  font: normal 600 15px Open Sans;
+  color: #ffffff;
+}
+.axit-block-right {
+  background: #ffffff;
+  border-radius: 8px;
+  margin-left: 265px;
+  width: 370px;
+}
+.title-input {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  color: #333333;
+  padding-top: 16px;
+}
+
+.title-input-p-color {
+  color: #f86e1d;
+}
+.text-input {
+  padding: 44px 59px;
+  align-self: start;
+}
+.item-input {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  color: #bdbdbd;
+  text-align: left;
+  padding-top: 38px;
+}
+.item-input:after {
+  content: "";
+  display: block;
+  margin: auto;
+  width: 252px;
+  border: 1px solid #bdbdbd;
+  margin-top: 19px;
+}
+.buttom-start {
+  width: 100%;
+  height: 54px;
+  background: #ec7979;
+  border-radius: 0px 0px 8px 8px;
+  margin: auto;
+  padding-top: 16px;
+}
+.buttom-start-text {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  color: #ffffff;
+}

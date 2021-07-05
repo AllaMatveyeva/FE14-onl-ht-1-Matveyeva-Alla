@@ -7,18 +7,27 @@
   padding: 0px 15px;
   margin: auto;
 }
+.title::after {
+  content: "";
+  width: 64px;
+  border: 1px solid #e72424;
+  margin: auto;
+  display: block;
+  margin-top: 34px;
+}
+
 .description {
   margin-bottom: 67px;
 }
 .row-customers {
   display: flex;
   margin: 0px -15px;
+  align-items: center;
   justify-content: space-between;
 }
 .item-customers {
-  max-width: 298px;
-  margin: 0px -15px;
-  margin-left: 112px;
+  max-width: 300px;
+  margin: 0px 15px;
   position: relative;
 }
 .item-desk {
@@ -46,35 +55,45 @@
 .triangle {
   width: 0px;
   height: 0px;
-  border-left: 17px solid transparent;
-  border-right: 17px solid transparent;
-  border-bottom: 24px solid #e2e2e2;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-bottom: 12px solid #e2e2e2;
   transform: rotate(180deg);
   margin-left: 19px;
   position: absolute;
-  top: 98px;
-  left: 39px;
+  top: 100%;
+  left: 15%;
 }
 .item-review {
-  margin-bottom: 119px;
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
 }
-
-.foto {
+.image-foto {
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  position: absolute;
-  top: 132px;
-  left: 70px;
+  overflow: hidden;
+}
+.foto-Barash {
+  top: 70px;
+  height: 70px;
+}
+.foto-Nusha {
+  top: 70px;
+  height: 70px;
+  margin-left: -10px;
+}
+.foto-Krosh {
+  top: 70px;
+  height: 70px;
+  margin-left: -12px;
 }
 .initials {
-  margin-left: 45px;
+  width: 97px;
+  text-align: right;
 }
 .initials-text {
-  width: 97px;
-  margin-left: 45px;
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
@@ -82,9 +101,7 @@
   color: #333333;
 }
 .position-text {
-  margin-left: 83px;
   margin-top: 12px;
-  width: 59px;
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;

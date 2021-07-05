@@ -2,9 +2,16 @@
 @import url("../css/about.css");
 @import url("../css/pricing.css");
 @import url("../css/customers.css");
-@import url("../css/design.css");
+@import url("../css/axure.css");
+@import url("../css/header.css");
+@import url("../css/axit.css");
+@import url("../css/social.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+@import url("../css/footer.css");
 html {
-  font-family: "Open Sans", sans-serif, "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
+
+  font-family: "Raleway", sans-serif;
   font-size: 16px;
   color: rgb(92, 91, 91);
 }

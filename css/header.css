@@ -1,0 +1,48 @@
+header {
+  background-color: hsl(0, 0%, 0%);
+}
+.header-container {
+  padding: 0px 15px;
+  max-width: 1400px;
+  margin: auto;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  display: inline-block;
+  margin-left: 110px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font: normal normal 30px Raleway;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.logo-end {
+  font: normal normal 30px Raleway;
+  text-transform: uppercase;
+  color: #f86e1d;
+  display: inline;
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav {
+  display: inline-block;
+}
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-list-item {
+  display: inline-block;
+  font: normal 600 15px Raleway;
+  text-transform: capitalize;
+  color: rgba(255, 255, 255, 0.7);
+  padding-left: 48px;
+}

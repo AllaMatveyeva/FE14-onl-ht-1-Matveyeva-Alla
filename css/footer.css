@@ -1,0 +1,33 @@
+.footer {
+  background: #000000;
+  max-width: 100%;
+  padding: 44px 0px;
+}
+.container {
+  max-width: 1400px;
+}
+.icons-footer {
+  width: 317px;
+  font-size: 23px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  color: rgb(209, 213, 216);
+}
+.copyright {
+  margin-top: 18px;
+}
+.copyright-p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.copyright-p::before {
+  content: "\f1f9";
+  font-family: "Font Awesome 5 Free";
+  font-size: 10px;
+  font-weight: 400px;
+  margin-right: 5px;
+}

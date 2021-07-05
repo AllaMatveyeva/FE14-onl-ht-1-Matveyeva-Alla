@@ -18,12 +18,15 @@ section {
   margin: auto;
   text-transform: uppercase;
 }
-.awesome-line {
-  margin: auto;
+.title::after {
+  content: "";
   width: 62px;
-  border-top: 1px solid #d98943;
+  border: 1px solid #d98943;
+  margin: auto;
+  display: block;
   margin-top: 30px;
 }
+
 .description {
   font-style: normal;
   font-weight: normal;
@@ -54,7 +57,10 @@ section {
   align-items: center;
   justify-content: center;
 }
-
+.icon {
+  font-size: 37px;
+  color: #d98943;
+}
 .title-row {
   text-align: center;
   color: #333;
