@@ -11,7 +11,7 @@
   </head>
   <body>
     <header>
-      <div class="header-container">
+      <div class="container">
         <div class="header-nav">
           <div class="logo">
             <a class="nav-list-item-link" href="#">
@@ -20,8 +20,7 @@
           <nav class="nav">
     
             <ul class="nav-list">
-              <div class="nav-block">
-              <li class="nav-list-item">
+                  <li class="nav-list-item">
                 <a class="nav-list-item-link" href="#">feautures</a></li>
               <li class="nav-list-item">
                 <a class="nav-list-item-link" href="#">About</a></li>
@@ -31,8 +30,7 @@
                 <a class="nav-list-item-link" href="#">Reviews</a></li>
               <li class="nav-list-item">
                 <a class="nav-list-item-link" href="#"> contact</a></li>
-            </div>
-            </ul>
+              </ul>
           
           </nav>
         </div>
@@ -40,11 +38,10 @@
       </div>
     </header>
     <section class="axit">
-      <div class="axit-container">
+      <div class="container">
         <div class="axit-block">
           <div class="axit-block-left">
-        <div class="logoword">
-      Ax<span class="logoword-end">it</span>
+        <div class="logoword"><p class="logoword-p">Ax</p>
       </div>
       <div class="axit-text">
         <p class="axit-text-p">Modern Axure template for beautuful prototypes</p>
@@ -56,34 +53,43 @@
         <a class="axit-button-download" href="#">Download</a>
         </div>
     </div>
-    
+  
     <div class="axit-block-right">
-      <div class="card-input">
-      <div class="title-input">
-        <p class="title-input-p">Try Your <span class="title-input-p-color">FREE</span> Trial Today</p>
-      </div>
-<div class="text-input">
-  <ul class="list-input">
-    <li class="item-input">Name</li>
-    <li class="item-input">Email</li>
-    <li class="item-input">Password</li>
-  </ul>
+      <form action="#" name="form" method="POST" class="axit-form">
+        <div class="form-content">
+            <h3 class="form-title">
+        Try Your <span class="form-title-p-color">FREE</span> Trial Today</h3>
+      </h3>
+<div class="form-item">
+  <label for="Name">Name</label>
+<input type="text" id="Name" name="name-vizitor" required class="axit-form-text">
 </div>
-<div class="buttom-start"><span class="buttom-start-text">Get Started</span></div>
+<div class="form-item">
+  <label for="Email">Email</label>
+<input type="email" id="Email" name="email-vizitor" required class="axit-form-text">
+</div>
+<div class="form-item">
+  <label for="Password">Password</label>
+<input type="password" id="Password" name="password-vizitor" required class="axit-form-text">
+</div>
+</div>
+<button type="submit" class="axit-card-button">
+  <p class="axit-card-button-p">Get Started</p>
+</button>
+</form>
 </div>
     </div>
+  </div>
     </div>
       </div>
 
     </section>
 
 <section class="social">
-  <div class="container-social">
+  <div class="container">
     <div class="social-block">
       <div class="social-block-left">
-<div class="social-title">
-  <p class="social-title-p">Social Media</p>
-</div>
+  <h3 class="social-title">Social Media</h3>
 <div class="social-desc">
   <p class="social-desc-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
     Aenean euismod bibendum laoreet.</p>
@@ -91,27 +97,43 @@
 </div>
 <div class="social-block-right">
   <div class="icons">
-    <a href="#">
+    <ul class="icons-list">
+      <li class="icons-list-item">
+    <a class="icons-list-item-link" href="#">
     <i class="fab fa-facebook-f"></i>
   </a>
-  <a href="#">
+</li>
+<li class="icons-list-item">
+  <a class="icons-list-item-link" href="#">
     <i class="fab fa-twitter"></i>
     </a>
-    <a href="#">
+  </li>
+  <li class="icons-list-item">
+    <a class="icons-list-item-link" href="#">
       <i class="fab fa-google"></i>
     </a>
-    <a href="#">
+    </li>
+    <li class="icons-list-item">
+    <a class="icons-list-item-link" href="#">
     <i class="fab fa-pinterest"></i>
     </a>
-   <a href="#">
+  </li>
+  <li class="icons-list-item">
+   <a class="icons-list-item-link" href="#">
    <i class="fab fa-instagram-square"></i>
     </a>
-    <a href="#">
+  </li>
+  <li class="icons-list-item">
+    <a class="icons-list-item-link" href="#">
    <i class="fab fa-stumbleupon"></i>
     </a>
-    <a href="#">
+  </li>
+  <li class="icons-list-item">
+    <a class="icons-list-item-link" href="#">
    <i class="fas fa-rss"></i>
    </a>
+  </li>
+  </ul>
       </div>
 </div>
 </div>
@@ -305,17 +327,83 @@
               </div>
               </div>
               </section>
+              <section class="contact">
+                <div class="container">
+                  <h2 class="title">contact us</h2>
+                      <p class="description">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      </p>
+                      <form action="#" name="form-contact" method="POST" class="contact-form">
+                       <div class="contact-form-content">
+                         <div class="contact-text">
+                          <div class="contact-form-item">
+                            <label for="contact-name">Name</label>
+                          <input type="text" id="contact-name" name="name-vizitor" required class="contact-form-text">
+                          </div>
+                          <div class="contact-form-item">
+                            <label for="contact-email">Email</label>
+                          <input type="email" id="contact-email" name="email-vizitor" required class="contact-form-text">
+                          </div>
+                          <div class="contact-form-item">
+                            <label for="contact-password">Password</label>
+                          <input type="password" id="contact-password" name="password-vizitor" required class="contact-form-text">
+                          </div>
+                         </div>
+                            <div class="contact-textarea">
+                          <label for="message">Message</label>
+                          <textarea type="text" id="message" required class="contact-textarea-text">
+                          </textarea>
+                         </div>
+                        </div>
+                          <button type="submit" class="contact-button">
+                            <p class="contact-button-p">Send Message
+                            </p>
+                          </button>
+              
+                         
+                      </form>
+                </div>
+              </section>
               <section class="footer">
                 <div class="container">
-                  <div class="icons-footer">
-                     <i class="fab fa-facebook-f"></i>
-                     <i class="fab fa-twitter"></i>
-                     <i class="fab fa-google"></i>
-                     <i class="fab fa-pinterest"></i>
-                     <i class="fab fa-instagram-square"></i>
-                     <i class="fab fa-stumbleupon"></i>
-                     <i class="fas fa-rss"></i>
-  </div>
+                  <div class="footer-icons">
+                    <ul class="footer-icons-list">
+                      <li class="footer-icons-list-item">
+                    <a class="icons-list-item-link" href="#">
+                    <i class="fab fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li class="footer-icons-list-item">
+                  <a class="icons-list-item-link" href="#">
+                    <i class="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li class="footer-icons-list-item">
+                    <a class="icons-list-item-link" href="#">
+                      <i class="fab fa-google"></i>
+                    </a>
+                    </li>
+                    <li class="footer-icons-list-item">
+                    <a class="icons-list-item-link" href="#">
+                    <i class="fab fa-pinterest"></i>
+                    </a>
+                  </li>
+                  <li class="footer-icons-list-item">
+                   <a class="icons-list-item-link" href="#">
+                   <i class="fab fa-instagram-square"></i>
+                    </a>
+                  </li>
+                  <li class="footer-icons-list-item">
+                    <a class="icons-list-item-link" href="#">
+                   <i class="fab fa-stumbleupon"></i>
+                    </a>
+                  </li>
+                  <li class="footer-icons-list-item">
+                    <a class="icons-list-item-link" href="#">
+                   <i class="fas fa-rss"></i>
+                   </a>
+                  </li>
+                  </ul>
                     <div class="copyright">
 <p class="copyright-p">2015 Axure Themes</p>
                     </div>

@@ -1,31 +1,29 @@
 .social {
   background: #f8efef;
-  padding: 0px 0px;
+  padding: 14px 0;
 }
-.container-social {
-  max-width: 1400px;
-  padding: 0px 111px;
+.container {
+  max-width: 1170px;
+  padding: 0px 15px;
+  margin: auto;
 }
 .social-block {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+.social-block-left {
+  width: 365px;
+}
 .social-title {
   width: 125px;
-  padding-top: 14px;
-}
-.social-title-p {
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
   color: #333333;
 }
-.social-desc {
-  width: 365px;
-  padding-top: 14px;
-}
+
 .social-desc-p {
   font-family: Open Sans;
   font-style: normal;
@@ -33,17 +31,24 @@
   font-size: 14px;
   color: #86878b;
   text-align: left;
-  margin-bottom: 17px;
+  margin-top: 14px;
 }
 .social-block-right {
   width: 684px;
-  margin-left: 129px;
 }
 .icons {
-  width: 684px;
   font-size: 42px;
   color: rgb(192, 190, 190);
+}
+.icons-list {
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  margin-left: 129px;
+  flex-wrap: wrap;
+  transition: 0.2s;
+}
+.icons-list-item:hover {
+  color: rgb(235, 73, 14);
+  text-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white, 0 0 20px crimson,
+    0 0 35px crimson, 0 0 40px crimson, 0 0 50px crimson, 0 0 75px crimson;
 }

@@ -1,6 +1,5 @@
 .section-pricing {
-  padding: 100px 0px;
-  text-align: center;
+  padding: 80px 0px;
   background-color: #e5e5e5;
 }
 .container-block {
@@ -10,38 +9,32 @@
 }
 .block {
   display: flex;
+  margin: 0px -15px;
   margin-top: 63px;
-  margin-left: 0px -15px;
   justify-content: space-between;
 }
 .block-basic {
-  max-width: 340px;
-  width: 100%;
-  margin-left: 0px 15px;
+  width: 340px;
+  margin-left: 15px;
 }
 .block-basic:last-child {
   margin-bottom: 0px;
 }
 
 .block-optima {
-  max-width: 340px;
-  width: 100%;
-  margin-left: 0px 15px;
+  width: 340px;
+  margin-left: 15px;
 }
 .block-optima:last-child {
   margin-bottom: 0px;
 }
 
 .block-pro {
-  max-width: 340px;
-  width: 100%;
-  margin-left: 0px 15px;
+  width: 340px;
+  margin-left: 15px;
 }
 .block-pro:last-child {
   margin-bottom: 0px;
-}
-.block-list {
-  text-align: center;
 }
 .block-title {
   font-style: normal;

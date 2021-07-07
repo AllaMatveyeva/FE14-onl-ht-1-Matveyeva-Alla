@@ -1,9 +1,10 @@
 header {
   background-color: hsl(0, 0%, 0%);
+  padding: 25px 0;
 }
-.header-container {
+.container {
   padding: 0px 15px;
-  max-width: 1400px;
+  max-width: 1170px;
   margin: auto;
 }
 
@@ -13,10 +14,6 @@ header {
   align-items: center;
 }
 .logo {
-  display: inline-block;
-  margin-left: 110px;
-  padding-top: 20px;
-  padding-bottom: 20px;
   font: normal normal 30px Raleway;
   text-transform: uppercase;
   color: #ffffff;
@@ -26,23 +23,23 @@ header {
   font: normal normal 30px Raleway;
   text-transform: uppercase;
   color: #f86e1d;
-  display: inline;
-  margin: 0px;
-  padding: 0px;
-}
-
-.nav {
-  display: inline-block;
 }
 .nav-list {
   display: flex;
   justify-content: space-between;
 }
-
 .nav-list-item {
-  display: inline-block;
   font: normal 600 15px Raleway;
   text-transform: capitalize;
   color: rgba(255, 255, 255, 0.7);
-  padding-left: 48px;
+  margin-left: 48px;
+  transition: 0.2s;
+}
+.nav-list-item:hover {
+  color: rgb(235, 73, 14);
+  text-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white, 0 0 20px crimson,
+    0 0 35px crimson, 0 0 40px crimson, 0 0 50px crimson, 0 0 75px crimson;
+}
+.nav-list-item:first-child {
+  margin-left: 0px;
 }

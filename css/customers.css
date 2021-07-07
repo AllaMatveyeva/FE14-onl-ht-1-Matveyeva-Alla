@@ -1,8 +1,7 @@
 .section-customers {
-  padding: 100px 0px;
-  text-align: center;
+  padding: 80px 0;
 }
-.container-block {
+.container {
   max-width: 1170px;
   padding: 0px 15px;
   margin: auto;
@@ -11,24 +10,18 @@
   content: "";
   width: 64px;
   border: 1px solid #e72424;
-  margin: auto;
-  display: block;
-  margin-top: 34px;
 }
 
-.description {
-  margin-bottom: 67px;
-}
 .row-customers {
   display: flex;
   margin: 0px -15px;
+  margin-top: 67px;
   align-items: center;
   justify-content: space-between;
 }
 .item-customers {
-  max-width: 300px;
+  width: 300px;
   margin: 0px 15px;
-  position: relative;
 }
 .item-desk {
   margin-bottom: 22px;
@@ -37,12 +30,11 @@
 .block-description {
   background-color: #e2e2e2;
   padding: 9px 22px 6px 23px;
-  margin: 0px 0px;
+
   align-items: center;
   border-radius: 7px;
 }
 .description-customers {
-  margin: 0px 0px;
   text-align: center;
   font-family: Open Sans;
   font-style: normal;
@@ -53,13 +45,10 @@
   border: 0px;
 }
 .triangle {
-  width: 0px;
-  height: 0px;
   border-left: 12px solid transparent;
   border-right: 12px solid transparent;
   border-bottom: 12px solid #e2e2e2;
   transform: rotate(180deg);
-  margin-left: 19px;
   position: absolute;
   top: 100%;
   left: 15%;
