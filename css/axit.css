@@ -1,5 +1,5 @@
 .axit {
-  padding: 110px 0;
+  padding: 108px 0;
   background-image: url(../img/background-1\ 1.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -31,21 +31,17 @@
   text-align: left;
 }
 .logoword {
-  width: 129px;
-  display: inline;
-}
-.logoword-p {
   font: normal normal 60px Roboto;
   color: #ffffff;
   text-transform: uppercase;
 }
-.logoword-p::after {
+.logoword::after {
   content: "it";
   color: #f86e1d;
 }
 
 .axit-text {
-  width: 544px;
+  max-width: 544px;
   margin-top: 32px;
 }
 .axit-text-p {
@@ -62,7 +58,7 @@
   margin-top: 32px;
 }
 .axit-desc {
-  width: 282px;
+  max-width: 282px;
   margin-top: 39px;
 }
 .axit-desc-p {
@@ -70,7 +66,7 @@
   color: rgba(255, 255, 255, 0.8);
 }
 .axit-button {
-  width: 135px;
+  max-width: 135px;
   border: 1px solid #ffffff;
   padding: 11px 26px;
   margin-top: 39px;
@@ -86,7 +82,7 @@
   color: #ffffff;
 }
 .axit-block-right {
-  width: 370px;
+  max-width: 370px;
 }
 .axit-form {
   background: #ffffff;
@@ -101,6 +97,8 @@
   color: #333333;
   padding-top: 18px;
   padding-bottom: 44px;
+  padding-left: 60px;
+  padding-right: 60px;
 }
 
 .form-title-p-color {
@@ -120,17 +118,20 @@
   border-bottom: 1px solid #bdbdbd;
   display: block;
   margin-bottom: 16px;
-  padding-bottom: 16px;
 }
 
 .axit-card-button {
-  width: 372px;
+  width: 100%;
   height: 54px;
   background: #ec7979;
   border-radius: 0px 0px 8px 8px;
   margin: auto;
   margin-top: 61px;
   transition: 0.2s;
+  cursor: pointer;
+  border: 0;
+  overflow: hidden;
+  padding: 12px 30px;
 }
 .axit-card-button:hover {
   box-shadow: 2px 2px white, 4px 4px #c76637;

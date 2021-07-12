@@ -12,9 +12,9 @@
   margin: 0px -15px;
   margin-top: 63px;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .block-basic {
-  width: 340px;
   margin-left: 15px;
 }
 .block-basic:last-child {
@@ -22,7 +22,6 @@
 }
 
 .block-optima {
-  width: 340px;
   margin-left: 15px;
 }
 .block-optima:last-child {
@@ -30,7 +29,6 @@
 }
 
 .block-pro {
-  width: 340px;
   margin-left: 15px;
 }
 .block-pro:last-child {
@@ -44,6 +42,10 @@
   padding: 15px 144px 8px 144px;
   background-color: #333333;
   color: #ffffff;
+  transition: 0.2s;
+}
+.block-title:hover {
+  background-color: brown;
 }
 .block-cost {
   font-family: Raleway;

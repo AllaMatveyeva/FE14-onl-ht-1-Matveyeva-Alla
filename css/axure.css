@@ -49,7 +49,7 @@
   margin-top: 34px;
 }
 .axure-button {
-  width: 135px;
+  max-width: 135px;
   border: 1px solid #ffffff;
   padding: 11px 26px;
   margin: auto;

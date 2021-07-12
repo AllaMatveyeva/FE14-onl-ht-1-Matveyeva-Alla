@@ -1,3 +1,6 @@
+body {
+  width: 100%;
+}
 .social {
   background: #f8efef;
   padding: 14px 0;
@@ -13,10 +16,10 @@
   justify-content: space-between;
 }
 .social-block-left {
-  width: 365px;
+  max-width: 365px;
 }
 .social-title {
-  width: 125px;
+  text-align: left;
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
@@ -34,7 +37,8 @@
   margin-top: 14px;
 }
 .social-block-right {
-  width: 684px;
+  max-width: 684px;
+  width: 100%;
 }
 .icons {
   font-size: 42px;

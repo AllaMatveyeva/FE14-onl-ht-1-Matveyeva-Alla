@@ -20,7 +20,7 @@
   justify-content: space-between;
 }
 .item-customers {
-  width: 300px;
+  max-width: 300px;
   margin: 0px 15px;
 }
 .item-desk {
@@ -79,7 +79,6 @@
   margin-left: -12px;
 }
 .initials {
-  width: 97px;
   text-align: right;
 }
 .initials-text {

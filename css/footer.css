@@ -10,10 +10,8 @@
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  width: 317px;
+  max-width: 317px;
   font-size: 23px;
-  display: flex;
-  justify-content: space-between;
   margin: auto;
   color: #d1d5d8;
 }

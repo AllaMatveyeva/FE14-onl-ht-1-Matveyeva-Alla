@@ -9,14 +9,18 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
 @import url("../css/footer.css");
 @import url("../css/contact.css");
+@import url("../css/tabs.css");
+@import url("../css/media.css");
 html {
   font-family: "Open Sans", sans-serif;
 
   font-family: "Raleway", sans-serif;
-  font-size: 16px;
+
   color: rgb(92, 91, 91);
 }
-
+body {
+  width: 100%;
+}
 * {
   margin: 0;
   padding: 0;

@@ -15,16 +15,12 @@ section {
   font-weight: normal;
   font-size: 36px;
   color: #212121;
-  margin: auto;
   text-transform: uppercase;
 }
 .title::after {
   content: "";
   width: 62px;
   border: 1px solid #d98943;
-  margin: auto;
-  display: block;
-  margin-top: 30px;
 }
 
 .description {
@@ -42,8 +38,6 @@ section {
   justify-content: space-between;
 }
 .image-row {
-  width: 350px;
-  text-align: center;
   margin-left: 15px;
 }
 .image-row_circle {
@@ -52,7 +46,6 @@ section {
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  margin-bottom: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -62,7 +55,6 @@ section {
   color: #d98943;
 }
 .title-row {
-  text-align: center;
   color: #333;
   font-weight: bold;
   font-size: 20px;
